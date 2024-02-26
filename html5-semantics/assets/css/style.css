@@ -1,0 +1,17 @@
+header.primary {
+    background-color: rgb(112, 103, 122);
+    
+}
+
+section article.post {
+background-color: rgb(114, 114, 127);
+}
+
+aside {
+   background-color: rgb(178, 191, 206);
+}
+
+footer.primary {
+    height: 60px;
+    background-color: rgb(158, 153, 176)
+}
