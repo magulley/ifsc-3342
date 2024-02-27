@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    background: rgb(128, 84, 108);
+    color: rgb(204, 198, 198);
+    overflow: auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.col {
+    padding: 20px;
+    border: 1px solid #c0c0c0;
+    border-radius: 6px;
+}
+
+.col p {
+color:#c0c0c0;
+margin: 0;
+text-shadow: 1px 1px #000;
+
+}
+
+.col:nth-child(odd) {
+    background-color:rgba(104, 102, 104, 0.562);
+}
+
+.fancy {
+    /*display: none;*/
+    color: black;
+}
+
+
+/*max width*/
+@media screen and (max-width: 600px) {
+    .row {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*ranged*/
+@media screen and(max-width:800px) and (min-width:601px) {
+    .row {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+/*min width*/
+@media screen and (min-width: 801px) {
+    .row {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
