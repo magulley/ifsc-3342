@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+main {
+    width: 960px;
+    margin: 28px auto;
+    border: 1px solid #000;
+    display: grid;
+    background-image: url(../img/grid.png)
+}
+
+header.primary {
+    background-color: aliceblue;
+    width: 904px;
+    margin-left: 28px;
+    padding: 20px;
+    float: left;
+}
+
+#blog {
+background-color: pink;
+width: 673px;
+margin-left: 28px;
+padding: 20px;
+float: left;
+}
+
+aside {
+    background-color: rgb(172, 110, 137);
+    width: 211px;
+    margin-left: 20px;
+    padding: 20px;
+    float: left;
+}
+
+footer.primary {
+    background-color:azure;
+    width: 904px;
+    margin-left: 28px;
+}
