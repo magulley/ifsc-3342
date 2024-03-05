@@ -1,7 +1,23 @@
 html {
     box-sizing: border-box;
   }
+  
   *, *:before, *:after {
     box-sizing: inherit;
   }
   
+  body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /*Images*/
+  img {
+    max-width: 100%;
+  }
+
+  /*Utility Classes*/
+  .container {
+    margin: 0 auto;
+    width: 420px;
+    background-color: tomato;
+  }
