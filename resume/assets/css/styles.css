@@ -26,8 +26,10 @@ html {
 
   /*Utility Classes*/
   .container {
+    width: 680px;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.15);
+    list-style-type: none;
   }
 
   /* ------ Global Styles -------*/
@@ -36,6 +38,7 @@ body {
   background: var(--main-bg-color);
   color: var(--primary-type-color);
   line-height: 1.6;
+ 
 }
 a:link,
 a:visited {
@@ -126,19 +129,17 @@ dd {
   justify-content: center;
   list-style: none;
   padding: 0;
-  gap:20px;
+  gap:40px;
 }
 
 .related-links a {
-  border: 1px solid var(--accent-color-1);
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;
-  color: #222222;
   text-transform: uppercase;
-  font-size: 0.75em;
+  font-size: .75rem;
   background: rgba(0, 0, 0, 0.65);
-  transition: background-color 0.5s ease;
+  transition: background-color 0.2s ease;
   color: #fff;
 }
 
@@ -153,7 +154,7 @@ dd {
 
 
 #skills li {
-  list-style-type: square;
+  list-style-type: disc;
 }
 
 .job,
@@ -206,3 +207,19 @@ main{
     ;
 }
 
+/* ------ Media Queries -------*/
+@media screen and (min-width:786px) {
+
+.container{
+  max-width: 680px;
+
+}
+h2 {
+  text-align: center;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+}
