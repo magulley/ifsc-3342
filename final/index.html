@@ -4,10 +4,10 @@
   <meta charset="UTF-8" />
   <title>Hello, world!</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta name="description" content="Formula 1 Source" />
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
   <link rel="icon" href="favicon.png">
-  <meta name="theme-color" content="#ec1818">
+  <script src="https://kit.fontawesome.com/dade9f33d7.js" crossorigin="anonymous"></script>
   <script async src='https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX'></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -16,12 +16,165 @@
   
     gtag('config', 'G-XXXXXXXXXX');
   </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Formula 1 for Dummies</h1>
-  <footer>
-    <small>© <script>document.write(new Date().getFullYear())</script> Your company name. All Rights Reserved.</small>
-  </footer>
-  <script src="app.js"></script>
+    
+    <header>
+        <div class="nav container">
+        <a href="#" class="logo">F<span>One</span></a>
+        <a href="about.html" class="about">About</a>
+        <a href="contact.html" class="contact">Contact Us</a>
+        <a href="#" class="subscribe">Subscribe</a>
+    </div>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">Formula 1 Source</h2>
+            <span class="home-subtitle">Drive to Survive Fans are Welcome Here!</span>
+        </div>
+    </section>
+    
+    <!-- Post Filter--> 
+    <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter='all'>All</span>
+        <span class="filter-item" data-filter='New'>Featured</span>
+        <span class="filter-item" data-filter='Drivers'>Drivers</span>
+        <span class="filter-item" data-filter='Staff'>Staff</span>
+    </div>
+
+    
+    <section class="post container">
+        <div class="post-box mobile">
+            <img src="img/landonorrisnbc.webp" alt="Lando Norris crowd surfing" class="post-img">
+            <h2 class="category">New</h2>
+            <a href="lando.html" class="post-title">
+                Lando Norris Wins First Grand Prix!
+            </a>
+            <span class="post-date">5 May 2024</span>
+            <p class="post-decription">McLaren's Lando Norris scored his first win in Formula 1 at a thrilling Miami Grand Prix on Sunday, beating Max Verstappen...</p>
+           
+        </div>
+      
+        <div class="post-box tech">
+            <img src="img/kevmagplanetf1.webp" alt="Kevin Magnussen" class="post-img">
+            <h2 class="category">Drivers</h2>
+            <a href="kevin.html" class="post-title">
+                More Penalty Points for Kevin Magnussen
+            </a>
+            <span class="post-date">01 May 2024</span>
+            <p class="post-decription">Kevin Magnussen didn’t have much to say after his collision with Logan Sargeant at the Miami Grand Prix earned him another two penalty points, putting him just two away from a one-race ban.</p>
+
+        </div>
+       
+        <div class="post-box mobile">
+            <img src="img/totowolff.webp" alt="Toto Wolff" class="post-img">
+            <h2 class="category">Staff</h2>
+            <a href="toto.html" class="post-title">
+                Toto Wolff Receives Criticism from Red Bull
+            </a>
+            <span class="post-date">01 May 2024</span>
+            <p class="post-decription">WOLFF SEES “NO RELEVANCE” TO OLIVER MINTZLAFF’S VERSTAPPEN PURSUIT CRITICISMS</p>
+            
+        </div>
+        
+        <div class="post-box design">
+            <img src="img/carlossainzwinsaustralia.jpg" alt="Carlos Sainz" class="post-img">
+            <h2 class="category">Drivers</h2>
+            <a href="post-page.html" class="post-title">
+                Race Winner Remains Jobless for Next Season
+            </a>
+            <span class="post-date">11 April 2024</span>
+            <p class="post-decription">Carlos Sainz is one of 12 F1 drivers without a contract for next season as he will leave Ferrari at the end of this year with Lewis Hamilton joining the team.</p>
+            
+        </div>
+        
+        <div class="post-box tech">
+            <img src="img/dannyric.jpg" alt="Daniel Ricciardo" class="post-img">
+            <h2 class="category">Drivers</h2>
+            <a href="post-page.html" class="post-title">
+                Danny Ricciardo Confronts Critics
+            </a>
+            <span class="post-date">25 April 2024</span>
+            <p class="post-decription">Daniel Ricciardo opens up on criticism in fickle world of F1</p>
+            
+            
+        </div>
+        
+        <div class="post-box mobile">
+            <img src="img/logansargent.webp" alt="Logan Sargeant" class="post-img">
+            <h2 class="category">Drivers</h2>
+            <a href="post-page.html" class="post-title">
+                Will Miami be Sargeant's Last Race?
+            </a>
+            <span class="post-date">24 April 2024</span>
+            <p class="post-decription">The fate of Logan Sargeant at Williams appears uncertain with Andrea Kimi Antonelli poised as a potential successor post-Miami GP.</p>
+          
+            
+        </div>
+        
+        <div class="post-box design">
+            <img src="img/adrianneweyf1.jpg" alt="" class="post-img">
+            <h2 class="category">Staff</h2>
+            <a href="post-page.html" class="post-title">
+                Adrian Newey to Leave Red Bull after 19 Years
+            </a>
+            <span class="post-date">04 May 2024</span>
+            <p class="post-decription">Oracle Red Bull Racing today announces that Chief Technical Officer Adrian Newey will leave the Red Bull Technology Group in the first quarter of 2025.</p>
+            
+           
+        </div>
+       
+        <div class="post-box tech">
+            <img src="img/fernandocryalonsobaby.jpg" alt="Fernando Alonso" class="post-img">
+            <h2 class="category">Drivers</h2>
+            <a href="post-page.html" class="post-title">
+                Alonso: Drivers Know they Won't Win 2024 F1 Title
+            </a>
+            <span class="post-date">12 March 2024</span>
+            <p class="post-decription">Aston Martin’s Fernando Alonso believes that 19 of the 20 Formula 1 drivers already know from pre-season testing in Bahrain that they will not win the championship in 2024.</p>
+            
+            
+        </div>
+       
+        <div class="post-box design">
+            <img src="img/lehamtoferrari.jpg" alt="Lewis Hamilton" class="post-img">
+            <h2 class="category">Drivers</h2>
+            <a href="post-page.html" class="post-title">
+                Lewis Hamilton to Ferrari for 2025
+            </a>
+            <span class="post-date">25 Feb 2024</span>
+            <p class="post-decription">Hamilton reveals the key factors behind his shock Ferrari switch</p>
+            
+           
+        </div>
+    </section>
+   
+    <div class="footer container">
+        <p>&#169; Formula 1 Source All Right Reserved</p>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+   
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+    
+  <script src="js/main.js"></script>
 </body>
 </html>
